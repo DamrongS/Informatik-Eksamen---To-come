@@ -1,10 +1,11 @@
+// Creating a meta-method for the String method
 String.prototype.hashEncode = function() {
     let h1 = 0x6a09e667;
     h2 = 0xbb67ae85; 
     h3 = 0x3c6ef372;
     h4 = 0xa54ff53a; 
     h5 = 0xc2b2ae35;
-    let prime1 = 0x1000193; // Prime numbers for stronger diffusion
+    let prime1 = 0x1000193; // Prime numbers
     let prime2 = 0x85ebca6b;
     let prime3 = 0x9e3779b1;
     let prime4 = 539764640162812663152017663489;
