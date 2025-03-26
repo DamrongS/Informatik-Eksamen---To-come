@@ -113,6 +113,7 @@ h1, h2, p {
   font-family: 'MinecraftDingsFont';
   font-size: 16px;
   font-weight: 600;
+  height: 5%;
   justify-content: center;
   letter-spacing: -.8px;
   line-height: 24px;
@@ -124,7 +125,7 @@ h1, h2, p {
   transition: all .3s;
   user-select: none;
   -webkit-user-select: none;
-  transform: translate(300%, -2400%);
+  transform: translate(300%, -1900%);
   touch-action: manipulation;
 }
 
