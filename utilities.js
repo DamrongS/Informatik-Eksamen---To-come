@@ -8,9 +8,9 @@ String.prototype.hashEncode = function() {
     let prime1 = 0x1000193; // Prime numbers
     let prime2 = 0x85ebca6b;
     let prime3 = 0x9e3779b1;
-    let prime4 = 539764640162812663152017663489;
-    let prime5 = 860626647860796494435683083331;
-    let prime6 = 216003281197339459057659419789;
+    let prime4 = 0x539764640;
+    let prime5 = 0x86062664;
+    let prime6 = 0x21600328;
     
     for (let i = 0; i < this.length; i++) {
         let char = this.charCodeAt(i);
