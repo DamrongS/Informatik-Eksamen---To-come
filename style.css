@@ -1,8 +1,30 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  color: white;
 }
 
 canvas {
   display: block;
+}
+
+h1, p {
+  margin: 10px;
+}
+
+#grad1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(45deg, rgb(119, 90, 139), rgb(106, 56, 105));
+  z-index: -1;
 }
