@@ -23,7 +23,7 @@ elements.forEach(element => {
                 setTimeout(() => {
                     span.style.fontFamily = 'MinecraftFont'; // Change to new font
                     span.style.color = '#000000'; // Optional color change
-                }, index * 70); // Delay for each letter
+                }, index * 40); // Delay for each letter
             });
         });
 
@@ -34,7 +34,7 @@ elements.forEach(element => {
                 setTimeout(() => {
                     span.style.fontFamily = 'MinecraftDingsFont'; // Reset font
                     span.style.color = ''; // Reset color
-                }, index * 70);
+                }, index * 40);
             });
         });
     }
