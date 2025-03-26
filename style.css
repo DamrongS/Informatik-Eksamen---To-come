@@ -169,7 +169,7 @@ h1, h2, p {
 .info2 {
   font-family: 'PixelFont';
   position: absolute;
-  transform: translate(0%, -600%);
+  transform: translate(0%, -620%);
 }
 
 .info3 {
