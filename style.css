@@ -1,3 +1,23 @@
+@font-face {
+  font-family: 'DayDreamFont';  /* Name you want to use in CSS */
+  src: url('fonts/Daydream.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MinecraftFont';  /* Name you want to use in CSS */
+  src: url('fonts/Minecraft.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'PixelFont';  /* Name you want to use in CSS */
+  src: url('fonts/Pixeland.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'MinecraftDingsFont';  /* Name you want to use in CSS */
+  src: url('fonts/minedings.ttf') format('truetype');
+}
+
 html, body {
   margin: 0;
   padding: 0;
@@ -15,8 +35,10 @@ canvas {
   display: block;
 }
 
-h1, p {
+h1, h2, p {
+  color: black;
   margin: 10px;
+  z-index: 1;
 }
 
 #grad1 {
@@ -27,4 +49,47 @@ h1, p {
   height: 100%;
   background: linear-gradient(45deg, rgb(119, 90, 139), rgb(106, 56, 105));
   z-index: -1;
+}
+
+#box {
+  width: 65%;
+  height: 500%;
+  background-color: white;
+  border-radius: 2px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -5%);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+}
+
+.title {
+  font-family: 'DayDreamFont';
+  position: relative;
+  top: -50px;
+}
+
+.info1 {
+  font-family: 'MinecraftFont';
+  position: relative;
+  top: -50px;
+  font-weight: bold;
+}
+
+.info2 {
+  font-family: 'PixelFont';
+  position: relative;
+  top: -60px;
+}
+
+.info3 {
+  font-family: 'DayDreamFont';
+  position: relative;
+  top: -0px;
+}
+
+.dings1 {
+  font-family: 'MinecraftDingsFont';
+  position: relative;
+  top: -60px;
 }
