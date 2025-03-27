@@ -127,7 +127,7 @@ h1, h2, p {
   transition: all .3s;
   user-select: none;
   -webkit-user-select: none;
-  transform: translate(300%, -1500%);
+  transform: translate(200%, -1500%);
   touch-action: manipulation;
 }
 
