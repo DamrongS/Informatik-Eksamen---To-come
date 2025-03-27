@@ -1,7 +1,7 @@
 #loginBox {
-    width: 25%;
-    height: 50%;
-    background-color: rgb(255, 245, 254);
+    width: 15%;
+    height: 35%;
+    background-color: rgb(53, 84, 56);
     border-radius: 2px;
     position: absolute;
     top: 50%;
@@ -11,61 +11,40 @@
     z-index: -2;
 }
 
-#fname {
-    width: 50%;
+#username {
+    width: 112%;
     height: 2%;
-    transform: translate(-55%, -400%);
-}
-
-#lname {
-    width: 50%;
-    height: 2%;
-    transform: translate(55%, -600%);
+    border: 2px solid #ffffff2f;
+    border-radius: 10px;
+    background-color: rgba(45, 0, 128, 0.219);
+    color: white;
+    transform: translate(0%, -100%);
 }
 
 #password {
     width: 112%;
     height: 2%;
-    transform: translate(0%, -250%);
+    border: 2px solid #ffffff2f;
+    border-radius: 10px;
+    background-color: rgba(45, 0, 128, 0.219);
+    color: white;
+    transform: translate(0%, 50%);
 }   
 
-.dingfNameElement {
+.dingUsernameElement {
     font-family: 'MinecraftDingsFont';
     position: absolute;
-    width: 0.5%;
-    transform: translate(-35%, -1000%) scale(0.8);
+    transform: translate(0%, -500%);
   
     align-items: center;
     background-color: transparent;
     border: 0px solid #ffffff;
-    color: #000;
+    color: #ffffff;
     font-size: 16px;
-    font-weight: 600;
     height: 16px;
     justify-content: center;
-    letter-spacing: -.8px;
+    letter-spacing: -0.01px;
     line-height: 24px;
-    min-width: 140px;
-    text-align: center;
-}
-
-.dinglNameElement {
-    font-family: 'MinecraftDingsFont';
-    position: absolute;
-    width: 0.5%;
-    transform: translate(35%, -1000%) scale(0.8);
-  
-    align-items: center;
-    background-color: transparent;
-    border: 0px solid #ffffff;
-    color: #000;
-    font-size: 16px;
-    font-weight: 600;
-    height: 16px;
-    justify-content: center;
-    letter-spacing: -.8px;
-    line-height: 24px;
-    min-width: 140px;
     text-align: center;
 }
 
@@ -73,71 +52,42 @@
     font-family: 'MinecraftDingsFont';
     position: absolute;
     width: 0.5%;
-    transform: translate(0%, -580%) scale(0.8);
+    transform: translate(0%, -100%);
   
     align-items: center;
     background-color: transparent;
     border: 0px solid #ffffff;
-    color: #000;
+    color: #ffffff;
     font-size: 16px;
-    font-weight: 600;
     height: 16px;
     justify-content: center;
-    letter-spacing: -.8px;
+    letter-spacing: -0.01px;
     line-height: 24px;
     min-width: 140px;
     text-align: center;
 }
 
 .loginButton {
-    position: absolute;
+    background-color: rgb(123, 200, 127);
+    border: 0px;
     border-radius: 2px;
-    align-items: center;
-    background-color: #fff;
-    border: 2px solid #ffffff;
-    box-sizing: border-box;
-    color: #000;
-    cursor: pointer;
-    display: inline-flex;
-    fill: #000;
+    color: white;
     font-family: 'MinecraftDingsFont';
     font-size: 16px;
-    font-weight: 600;
-    height: 5%;
-    width: 8%;
-    justify-content: center;
-    letter-spacing: -.8%;
-    line-height: 24%;
-    min-width: 5%;
-    outline: 0;
-    padding: 0 17px;
     text-align: center;
-    text-decoration: none;
-    transition: all .3s;
-    user-select: none;
-    -webkit-user-select: none;
-    transform: translate(-50%, 0%);
-    touch-action: manipulation;
+    cursor: pointer;
+    transition: all 0.1s;
+    min-width: 200px;
+    min-height: 25px;
+    transform: translate(0%, 200%);
+    color: black;
   }
   
-  .loginButton:focus {
-    color: #171e29;
-  }
-  
-  .loginButton:hover {
-    border-color: rgb(255, 255, 255);
-    color: #06f;
-    fill: rgb(0, 0, 0);
-  }
-  
-  .loginButton:active {
-    border-color: rgb(0, 0, 0);
-    color: #06f;
-    fill: #06f;
-  }
-  
-  @media (min-width: 768px) {
-    .loginButton {
-      min-width: 170px;
-    }
-  }
+.loginButton:hover {
+  background-color: rgb(123, 200, 127);
+}
+
+/* Active Click Effect */
+.loginButton:active {
+  background-color: rgb(101, 162, 104);
+}

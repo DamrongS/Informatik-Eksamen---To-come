@@ -22,7 +22,6 @@ elements.forEach(element => {
             spans.forEach((span, index) => {
                 setTimeout(() => {
                     span.style.fontFamily = 'MinecraftFont'; // Change to new font
-                    span.style.color = '#000000'; // Optional color change
                 }, index * 40); // Delay for each letter
             });
         });
@@ -33,7 +32,6 @@ elements.forEach(element => {
             spans.forEach((span, index) => {
                 setTimeout(() => {
                     span.style.fontFamily = 'MinecraftDingsFont'; // Reset font
-                    span.style.color = ''; // Reset color
                 }, index * 40);
             });
         });
