@@ -127,7 +127,7 @@ h1, h2, p {
   transition: all .3s;
   user-select: none;
   -webkit-user-select: none;
-  transform: translate(300%, -600%);
+  transform: translate(300%, -1500%);
   touch-action: manipulation;
 }
 
@@ -148,7 +148,7 @@ h1, h2, p {
 }
 
 @media (min-width: 768px) {
-  .button-59 {
+  .login {
     min-width: 170px;
   }
 }
