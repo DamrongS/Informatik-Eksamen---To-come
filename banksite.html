@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vaultlink</title>
+    <link rel="stylesheet" href="banksite.css">
+</head>
+<body>
+    <div id="grad1"></div>
+    <div id="box"></div>
+
+    <div id="sidebar">
+        <h1 class="title">VaultLink</h1>
+        <button class="Navigation active-button" onclick="showPage('overview')">Overview</button>
+        <button class="Navigation" onclick="showPage('inbox')">Inbox</button>
+        <button class="Navigation" onclick="showPage('usage')">Usage</button>
+        <button class="Navigation" onclick="showPage('subscription')">Subscription</button>
+        <button class="Navigation" onclick="showPage('cards')">Cards</button>
+
+        <hr class="divider">
+
+        <button class="Navigation" onclick="showPage('investments')">Investments</button>
+        <button class="Navigation" onclick="showPage('housing')">Housing</button>
+        <button class="Navigation" onclick="showPage('pension')">Pension</button>
+        <button class="Navigation" onclick="showPage('insurance')">Insurance</button>
+        <button class="Navigation" onclick="showPage('car')">Car</button>
+
+        <hr class="divider">
+
+        <button class="Navigation" onclick="showPage('worth')">Worth</button>
+        <button class="Navigation" onclick="showPage('valuta')">Valuta</button>
+
+        <hr class="divider">
+
+        <button class="Navigation" onclick="showPage('profile')">Profile</button>
+        <button class="Navigation" onclick="showPage('settings')">Settings</button>
+        <button class="Navigation" onclick="showPage('contact')">Contact</button>
+    </div>
+
+    <div id="content">
+        <div id="overview" class="page active">
+            <h1 class="title" style="transform: translate(-120%, -1400%);" >Overview Page</h1>
+            <div id="InfoBox"></div>
+            <p class="info1" style="transform: translate(-115%, -1900%);">Welcome Player.</p>
+            <p class="info1" style="transform: translate(-115%, -1850%);">Its empty here...</p>
+        </div>
+
+        <div id="inbox" class="page">Inbox Content</div>
+        <div id="usage" class="page">Usage Content</div>
+        <div id="subscription" class="page">Subscription Content</div>
+        <div id="cards" class="page">Cards Content</div>
+        <div id="investments" class="page">Investments Content</div>
+        <div id="housing" class="page">Housing Content</div>
+        <div id="pension" class="page">Pension Content</div>
+        <div id="insurance" class="page">Insurance Content</div>
+        <div id="car" class="page">Car Content</div>
+        <div id="worth" class="page">Worth Content</div>
+        <div id="valuta" class="page">Valuta Content</div>
+        <div id="profile" class="page">Profile Content</div>
+        <div id="settings" class="page">Settings Content</div>
+        <div id="contact" class="page">Contact Content</div>
+    </div>
+
+    <script src="banksiteBehavior.js"></script>
+</body>
+</html>
