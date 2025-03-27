@@ -116,7 +116,7 @@
     transition: all .3s;
     user-select: none;
     -webkit-user-select: none;
-    transform: translate(0%, 0%);
+    transform: translate(-50%, 0%);
     touch-action: manipulation;
   }
   
